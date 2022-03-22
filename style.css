@@ -1,5 +1,27 @@
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: "gilroylight";
+    src: url("gilroy-light-webfont.woff2") format('woff2'),
+         url("gilroy-light-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 body{
-    font-family: 'gilroy', Arial, Helvetica, sans-serif;
+    font-family: 'gilroylight', Arial;
     background-color: #0f0f0f;
     color: rgb(248, 248, 248);
     text-align: center;
@@ -40,7 +62,7 @@ body{
     font-size: 25px;
     line-height: 30px;
     letter-spacing: 0.5px;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
 }
 
 .header-two {
@@ -49,7 +71,7 @@ body{
     justify-content: space-between;
     -moz-box-align: center;
     align-items: center;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
 }
 
 .header-two a {
@@ -64,7 +86,7 @@ body{
 #rewards-text {
     font-size: 150px;
     letter-spacing: -2.5px;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
     text-align: center;
     margin: 80px 100px;
     margin-bottom: 0px;
@@ -87,7 +109,7 @@ body{
     margin-top: 30px;
     text-align: center;
     font-size: 25px;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
 }
 
 #download-cred-btn {
@@ -100,7 +122,7 @@ body{
     border-radius: 40px;
     cursor: pointer;
     margin-top: 58px;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
 }
 
 #mobile-imgs {
@@ -113,12 +135,12 @@ body{
     padding: 100px 0px 100px 100px;
     text-align: left;
     width: vw;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
 }
 
 #feel-special {
     font-size: 100px;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
     line-height: 100px;
     width: 55%
 }
@@ -138,7 +160,7 @@ body{
 
 .brands div {
     margin-bottom: 30px;
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
     text-align: left;
 }
 
@@ -155,7 +177,7 @@ body{
 }
 
 .about-bold {
-    font-weight: 700;
+    font-family: 'gilroyextrabold', Arial;
 }
 
 #footer {
@@ -216,7 +238,7 @@ body{
     
     #feel-special {
         font-size: 50px;
-        font-weight: 700;
+        font-family: 'gilroyextrabold', Arial;
         line-height: 50px;
     }
 
