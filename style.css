@@ -1,0 +1,235 @@
+body{
+    font-family: 'gilroy', Arial, Helvetica, sans-serif;
+    background-color: #0f0f0f;
+    color: rgb(248, 248, 248);
+    text-align: center;
+}
+
+#cred-logo {
+    width: 49px;
+    height: 66px;
+}
+
+.header {
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    margin: 62px 230px;
+    box-sizing: border-box;
+}
+
+.fixed-flex {
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    box-sizing: border-box; 
+}
+
+.sec-header {
+    background-color: rgb(39, 39, 39);
+    height: 78px;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.header-two {
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.header-two a {
+    text-decoration: none;
+    color:rgb(248, 248, 248);
+}
+
+#h21{
+    margin-right: 50px;
+}
+
+#rewards-text {
+    font-size: 150px;
+    letter-spacing: -2.5px;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px 100px;
+    margin-bottom: 0px;
+    line-height: 150px;
+}
+
+.sec-header a {
+    margin-left: 20px;
+    margin-right: 5px;
+    color: #7595d8;
+    text-decoration: none;
+}
+
+.sec-header img {
+    width: 11.84px;
+    height: 11px;
+}
+
+#join-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#download-cred-btn {
+    padding: 20px 65px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 58px;
+    font-weight: 700;
+}
+
+#mobile-imgs {
+    width: 100%;
+}
+
+
+.pink {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+    padding: 100px 0px 100px 100px;
+    text-align: left;
+    width: vw;
+    font-weight: 700;
+}
+
+#feel-special {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    width: 55%
+}
+
+.pink p {
+    width: 45%;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.brands {
+    background-color: rgb(248, 248, 248);
+    color: rgb(39, 39, 39);
+    padding: 45px 15%;
+    
+}
+
+.brands div {
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.brands img {
+    width: 100%;
+    
+}
+
+.about {
+    background-color: #242424;
+    text-align: left;
+    padding: 80px 10%;
+    color: #bdbdbd;
+}
+
+.about-bold {
+    font-weight: 700;
+}
+
+#footer {
+    text-align: right;
+    margin: 50px 10%;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        margin: 62px 100px;
+    }
+    .sec-header {
+        font-size: 22px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 680px) {
+    .header {
+        margin: 62px 20px;
+    }
+    .sec-header {
+        font-size: 18px;
+    }
+    #rewards-text {
+        font-size: 90px;
+        line-height: 90px;
+    }
+    #join-text {
+        font-size: 20px;
+    }
+    #feel-speacial {
+        width: 80%;
+    }
+    .pink p{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header {
+        margin: 62px 5px;
+    }
+    .sec-header {
+        font-size: 18px;
+    }
+    #rewards-text {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #join-text {
+        font-size: 20px;
+    }
+    
+    #feel-special {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .pink{
+        padding-left: 50px ;
+    }
+    #h21{
+        margin-right: 10px;
+    }
+    #feel-speacial {
+        width: 80%;
+    }
+    .pink p{
+        width: 80%;
+    }
+}
